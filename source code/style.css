@@ -1,3 +1,136 @@
-* {
-    font-family: Arial, sans-serif;
-  }
+/* Color schemes by: https://coolors.co/palette/e7ecef-274c77-6096ba-a3cef1-8b8c89 */
+/* for all */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #A3CEF1;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.header {
+  background-color: #6096BA;
+  color: #E7ECEF;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h1 {
+  display: inline;
+  font-size: 2.5rem;
+}
+
+#logo {
+  height: 50px;
+  float: left;
+  vertical-align: top;
+  margin-left: 15px;
+  padding-top: 4px;
+}
+
+
+
+/* Main content */
+main {
+  padding: 20px;
+  background-color: #E7ECEF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #274C77;
+  font-weight: bold;
+}
+
+p, ul {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+/* Blog post sections */
+#about, .news{
+  border-bottom: 2px solid #6096BA;
+  padding-bottom: 15px;
+}
+
+#about p {
+  font-weight: bold;
+}
+
+
+.news {
+  border-bottom: 2px solid #6096BA;
+  padding-bottom: 15px;
+}
+
+#blog-posts {
+  padding-top: 15px;
+}
+
+/* Links to post */
+a {
+  color: #8B8C89;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* Blog posts */
+article {
+  padding: 10px 0;
+}
+
+article div {
+  margin-bottom: 15px;
+}
+
+/* Code block */
+pre {
+  background-color: #f4f4f4;
+  border-left: 3px solid #595959;
+  /* overflow-x: auto; */
+}
+
+code {
+  color: #480404;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Mathematical formula */
+sup {
+  font-size: 0.8rem;
+  vertical-align: super;
+}
+
+sub {
+  font-size: 0.8rem;
+  vertical-align: sub;
+}
+
+span {
+  text-decoration: overline;
+}
+
+/* Footer */
+footer {
+  background-color: #727272;
+  color: #E7ECEF;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #E7ECEF;
+}
+
